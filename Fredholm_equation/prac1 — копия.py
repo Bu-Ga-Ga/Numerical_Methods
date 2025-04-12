@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 eps = 0.01
-p = 5 #РїРѕСЂСЏРґРѕРє С‚РѕС‡РЅРѕСЃС‚Рё РґР»СЏ РЅРѕСЂРјС‹ L2
+p = 5 
 
 
 
@@ -140,7 +140,7 @@ def u_n(x, u):
 
 def bode_integral(alpha, betha, u1, u2, n):
     if n % 4 != 0:
-        raise ValueError("n РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РєСЂР°С‚РЅРѕ 4 РґР»СЏ РїСЂРёРјРµРЅРµРЅРёСЏ С„РѕСЂРјСѓР»С‹ Р‘РѕРґРµ.")
+        raise ValueError("Error")
     
     h = (betha - alpha) / n
     integral = 0
